@@ -1,0 +1,127 @@
+/* Global Styling */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Modern and clean font */
+    background-color:rgb(3, 70, 184);/* Light, soothing background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h2 {
+    color: black;/* Dark slate color for text */
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 0;
+     /* Make text bold and uppercase */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    margin: 0;
+}
+
+nav {
+width:241%;
+
+    display: flex;  /* Enables flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: space-between; /* Pushes elements apart */
+    background-color:rgb(7, 78, 201); 
+    padding: 15px 30px;
+}
+
+nav h1 {
+    color:white;
+    text-transform:uppercase;
+    font-size: 28px;
+    font-style: italic;
+    margin: 0;  /* Removes unwanted margins */
+    letter-spacing: 1.5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#student_table {
+    width: 245%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Fix column width */
+}
+th:nth-child(4), td:nth-child(4) { 
+    width: 200px; /* Adjust width as needed */
+    word-break: break-word; /* Ensures text wraps properly */
+}
+
+.logout-btn {
+    padding-right:2px;
+    padding: 8px 20px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.logout-btn:hover {
+    background-color: darkred;
+}
+
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures radius applies uniformly */
+}
+
+th, td {
+    padding: 15px 20px; /* Ample spacing inside cells */
+    text-align: center;
+    font-size: 15px; /* Larger, readable text */
+    color: #34495e; /* Neutral text color */
+}
+
+th {
+    background-color: #34495e; /* Darker header background */
+    color: #ffffff; /* Contrasting text color */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    border-bottom: 1px solid #dcdcdc; /* Subtle row dividers */
+}
+
+tr:hover {
+    background-color: #f7f9fc; /* Highlight row on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+button {
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+.uppdate {
+    background-color: blue; /* Blue button */
+}
+.update {
+    background-color:greenyellow;
+}
+
+
+
+/* Footer Styling */
+.footer {
+    width:245%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #7f8c8d; /* Subtle footer color */
+    margin-top: 20px;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 1px solid #dcdcdc; /* Divider above footer */
+    background-color: #ffffff; /* White footer background */
+}

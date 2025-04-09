@@ -1,0 +1,199 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#0056b3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  /* Header Container Styling */
+  header {
+    background-color:rgb(3, 70, 184);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    top: 0;
+    left: 20;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+  
+  header h1 {
+    color:white;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 2px;   
+     padding-left:50px;
+     text-transform: uppercase;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+  }
+  
+  /* Navigation Styling */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 500px;
+    display: flex;
+    gap: 30px;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    background-color: #ff5722;
+    transform: translateY(-3px); /* Subtle hover effect */
+  }
+  
+  nav ul li a:active {
+    transform: translateY(0); /* Reverts back when clicked */
+  }
+  
+  /* Logout Button */
+  .logout-btn {
+    padding: 8px 15px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    text-decoration: none;
+    font-style: italic;
+  }
+  
+  .logout-btn:hover {
+    background-color: darkgreen;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    header h1 {
+        margin-bottom: 10px;
+    }
+  
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+  
+    .logout-btn {
+        margin-top: 20px; /* Adjust logout button placement for mobile */
+    }
+  }
+  
+  
+  
+  
+  main {
+    width: 90%;
+    max-width: 1000px;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    margin-right:300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    color: black;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+  }
+  
+  .info-row {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+  }
+  
+  img {
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-top: 10px;
+  }
+  
+  .uploaded-docs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .uploaded-docs li {
+    background: #eef;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0;
+  }
+  
+  
+  
+  select {
+    padding: 10px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .submit-button {
+    background:blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .submit-button:hover {
+    background: #0056b3;
+  }
+  
+  footer {
+    background-color:white;
+   margin-left:20px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  

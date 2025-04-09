@@ -1,0 +1,205 @@
+/* Global Styling */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Modern and clean font */
+    background-color: #4386e3; /* Light, soothing background color */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h2 {
+    color: #2c3e50; /* Dark slate color for text */
+    font-size: 26px;
+    text-align: center;
+    padding: 20px 0;
+    text-transform: uppercase; /* Make text bold and uppercase */
+    letter-spacing: 1.5px; /* Add spacing between letters */
+    margin: 0;
+}
+nav {
+    width:237%;
+    
+        display: flex;  /* Enables flexbox */
+        align-items: center; /* Aligns items vertically */
+        justify-content: space-between; /* Pushes elements apart */
+        background-color: #0545a4da;
+        padding: 15px 30px;
+      
+    }
+    
+    nav h1 {
+        color: white;
+        font-size: 28px;
+        font-style: italic;
+        margin: 0;  /* Removes unwanted margins */
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+
+    #studentTable {
+        width: 240%;
+        border-collapse: collapse;
+        table-layout: fixed; /* Fix column width */
+   
+    }
+    th:nth-child(4), td:nth-child(4) { 
+        width: 200px; /* Adjust width as needed */
+        word-break: break-word; /* Ensures text wraps properly */
+    }
+   
+/* Table Styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background-color: #ffffff; /* White background for the table */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures radius applies uniformly */
+}
+
+th, td {
+    padding: 15px 20px; /* Ample spacing inside cells */
+    text-align: center;
+    font-size: 15px; /* Larger, readable text */
+    color: #34495e; /* Neutral text color */
+}
+
+th {
+   background-color:#e74c3c;
+    color: #ffffff; /* Contrasting text color */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+td {
+    border-bottom: 1px solid #dcdcdc; /* Subtle row dividers */
+}
+
+tr:hover {
+    background-color: #f7f9fc; /* Highlight row on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button Styling */
+button {
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 90px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.update {
+    background-color: blue /* Blue button */
+}
+
+.update:hover {
+    background-color: #0c96f2; /* Darker blue on hover */
+}
+
+.approve {
+    background-color: orange; /* Green button */
+}
+
+.approve:hover {
+    background-color:grey ; /* Darker green on hover */
+}
+
+.delete {
+    background-color: #e74c3c; /* Red button */
+}
+
+.delete:hover {
+    background-color: #c0392b; /* Darker red on hover */
+}
+
+/* Footer Styling */
+
+/* Styling the input */
+#searchInput,#searchInput1,#searchInput2 {
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    width: 300px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Styling the button */
+#searchButton {
+    background-color: #42cb14;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#searchButton:hover {
+    background-color: #584dc9;
+}
+/* General button styling */
+.button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 5px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+
+/* Styling for specific buttons */
+.report-link {
+    
+    background-color:chartreuse;  /* Green for "View Report" */
+}
+.report-linkk{
+    background-color:#28a745;
+}
+.report-linkk{
+    background-color:#28a745;
+}
+.report-linkk:hover {
+    background-color: #04320e;
+}
+
+.logout-button {
+    background-color: #dc3545; /* Red for "Logout" */
+}
+
+.logout-button:hover {
+    background-color: #6c0711;
+}
+.footer {
+    width:240%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #7f8c8d; /* Subtle footer color */
+    margin-top: 20px;
+    padding: 15px 0;
+    font-size: 14px;
+    border-top: 1px solid #dcdcdc; /* Divider above footer */
+    background-color: #ffffff; /* White footer background */
+}

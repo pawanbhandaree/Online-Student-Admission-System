@@ -1,0 +1,200 @@
+.container {
+    
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.registration-container {
+
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px 25px;
+    margin-bottom: 15px;
+    margin-right:5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.half-width {
+    flex: 1;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding:10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    
+}
+
+
+
+.button-group {
+    display: flex;
+   margin-left:200px;
+    align-items: center;
+}
+body{
+    background-color: rgb(3, 70, 184);
+}
+
+
+
+
+
+.clear-btn, .cancel-btn,.submit-btn {
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius:5px;
+    margin:5px;
+    padding:7px;
+   height:48px;
+   width:80px;
+   font-size:14px;
+   cursor:pointer;
+}
+.cancel-btn{
+    padding-top:15px;
+    height:26px;
+}
+input,select{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-size:15px;
+}
+.form-group .row {
+    display: flex;
+    gap: 25px; 
+    margin-bottom: 20px; 
+    width:100%;
+}
+
+.half-width {
+    flex: 1;
+    width:50%;
+}
+
+.center-content {
+    display:inline;
+    align-items: center;
+   align-items:center;
+    width:80%;
+    margin-left:190px;/* Space between checkbox and label text */
+}
+.check-group{
+    display:inline;
+}
+/* Common styling for form rows */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+  }
+  
+ /* Common styling for rows */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* For Full Name fields (3 in one row) */
+  .form-row:nth-child(1) .form-group {
+    flex: 1 1 calc(33.33% - 10px); /* Equal space for three fields */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* For two fields per row (Phone & DOB, Gender & Address) */
+  .form-row:nth-child(2) .form-group,
+  .form-row:nth-child(3) .form-group {
+    flex: 1 1 calc(50% - 15px);
+  }
+  
+  /* Styling for input and labels */
+  .form-group label {
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    height: 38px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  
+  .error {
+    color: red;
+    font-size:12px;
+    margin-top: 5px;
+    font-weight: bold;
+  }
+  
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+#checkbox{
+    font-style: italic;
+}
+ div h1{
+  text-align:center; /* Set background color */
+    color: rgb(250, 245, 245); /* Set text color */
+   /* Font family */
+    font-size: 25px; /* Font size */
+ font-style: italic;
+ background-color: rgb(7, 78, 201);
+ margin-top:-5px;
+ padding:15px;
+ letter-spacing: 1.5px;
+ text-transform:uppercase;
+  }
+  #pass {
+    width:300px;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+  
+
+
+.footer{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

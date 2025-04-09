@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    padding: 20px;
+    position: relative;
+    text-align: left;
+}
+.card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 3px solid #007bff;
+}
+.card h2 {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: left;
+}
+.card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+.card p strong {
+    color: #007bff;
+}
+.card .print-button {
+    text-align: center;
+    margin-top: 20px;
+}
+.card .print-button a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.card .print-button a:hover {
+    background-color: #0056b3;
+}
+.back-button {
+    display: inline-block;
+    background-color:rgb(78, 78, 248);
+    color: white; 
+    padding: 10px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+    text-decoration: none; 
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+   margin-bottom:550px;
+ margin-left:-450px;
+}
+
+.back-button:hover {
+    background-color: #0056b3; 
+    text-decoration: none;
+}
